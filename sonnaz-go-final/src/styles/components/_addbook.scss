@@ -1,0 +1,248 @@
+/* 
+------------------------------------------
+LARGE MEDIA QUERIES
+------------------------------------------
+*/
+@media screen and (min-width: 992px) {
+  .add-form {
+    padding-left: 35%;
+    padding-right: 35%;
+    border-radius: 15px;
+  }
+
+  .check {
+    border-radius: 20px;
+  }
+
+  .destination-label {
+    font-size: 17px;
+  }
+
+  .driver-map {
+    border-radius: 15px;
+  }
+  .reservation-back {
+    margin-left: 10px;
+  }
+  .direction-choice {
+    border-radius: 20px;
+  }
+  .driver-destination {
+    border-radius: 20px;
+  }
+  .destinations {
+    border-radius: 20px;
+  }
+  .ride-choice {
+    border-radius: 20px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+}
+
+/* 
+------------------------------------------
+MEDIUM AND SMALL MEDIA QUERIES
+------------------------------------------
+*/
+@media screen and (max-width: 992px) {
+  .fab {
+    margin-right: 50px;
+  }
+  .check {
+    border-radius: 0px;
+  }
+  .add-form {
+    padding-left: 20%;
+    padding-right: 20%;
+    border-radius: 0px;
+  }
+  .destination-label {
+    font-size: 16px;
+  }
+  .destinations {
+    border-radius: 0px;
+  }
+  .ride-choice {
+    border-radius: 0px;
+  }
+  .driver-destination {
+    border-radius: 0px;
+  }
+  .driver-map {
+    border-radius: 0px;
+  }
+  .reservation-next {
+    margin-right: 50px;
+  }
+  .reservation-back {
+    margin-left: 10px;
+  }
+  .direction-choice {
+    border-radius: 0px;
+  }
+}
+
+/* 
+------------------------------------------
+SMALL MEDIA QUERIES
+------------------------------------------
+*/
+@media screen and (max-width: 600px) {
+  .destination-label {
+    font-size: 14px;
+    color: black;
+  }
+
+  .reservation-next {
+    margin-right: 30px;
+  }
+  .fab {
+    margin-right: 30px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+}
+
+/* 
+------------------------------------------
+COMPONENTS CSS
+------------------------------------------
+*/
+
+.direction {
+  background: linear-gradient(to bottom, #64bda4 0%, #bdddc1 100%);
+}
+
+.direction-label {
+  margin-top: -60px;
+  text-shadow: 3px 4px 20px rgba(0, 0, 0, 0.2);
+  font-size: 1.6rem;
+  font-family: "Brandon Grotesque Black";
+  padding-top: 30px;
+  padding-bottom: 80px;
+  text-align: center;
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.direction-button {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.direction-choice {
+  box-shadow: 1px 3px 116px -13px rgba(0, 0, 0, 0.4);
+
+  display: flex;
+  padding-top: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  margin-top: -30px;
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.choice-label {
+  margin-top: 10px;
+  color: black;
+}
+
+.reservation-wrapper {
+  box-shadow: 0px 5px 71px -11px rgba(0, 0, 0, 0.48);
+}
+
+.destinations {
+  padding-top: 50px;
+  padding-bottom: 10px;
+  box-shadow: 1px 3px 116px -13px rgba(0, 0, 0, 0.4);
+  margin-top: -30px;
+  background: white;
+}
+.dest-img {
+  -webkit-tap-highlight-color: transparent; /* for remove highlight */
+  cursor: pointer;
+  max-width: 60%;
+}
+
+.dest-img:hover {
+  filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.3));
+}
+
+.destination-label {
+  margin-bottom: 40px;
+}
+
+.add-form {
+  background-color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: -20px;
+  box-shadow: 1px 3px 116px -13px rgba(0, 0, 0, 0.4);
+}
+
+input[type="text"]:not(.browser-default) {
+  margin: 0 0 0 0;
+}
+
+.MuiFormLabel-root-27.MuiFormLabel-focused-28 {
+  color: red;
+}
+
+.reservation-back {
+  color: black;
+}
+
+.form-item {
+  margin-bottom: 80px;
+}
+
+.ride-choice {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  box-shadow: 1px 3px 116px -13px rgba(0, 0, 0, 0.4);
+  margin-top: -30px;
+  background: white;
+}
+
+.check {
+  background: linear-gradient(to bottom, #64bda4 0%, #bdddc1 100%);
+  padding-bottom: 50px;
+}
+
+.fab {
+  width: 56px;
+  height: 56px;
+  background-color: #64bda4;
+  border-radius: 50%;
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
+    0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12);
+  transition: all 0.1s ease-in-out;
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  float: right;
+}
+
+.fab:hover {
+  background-color: #549c88;
+}
+
+.error {
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  color: rgb(211, 82, 82);
+}
+
+span {
+  vertical-align: bottom;
+}

@@ -1,0 +1,219 @@
+/* 
+------------------------------------------
+LARGE MEDIA QUERIES
+------------------------------------------
+*/
+@media screen and (min-width: 992px) {
+  .driver-item {
+    min-width: 450px;
+  }
+  .driver-new {
+    border-radius: 20px;
+    margin-bottom: 50px;
+  }
+
+  .driver-item-label {
+    font-size: 17px;
+  }
+
+  .driver-item-label-b {
+    font-size: 24px;
+  }
+
+  .driver-item-label-t {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .driver-item-label {
+    font-size: 17px;
+  }
+
+  .driver-item-label-b {
+    font-size: 24px;
+  }
+
+  .driver-item-label-t {
+    font-size: 17px;
+  }
+}
+
+/* 
+------------------------------------------
+MEDIUM AND SMALL MEDIA QUERIES
+------------------------------------------
+*/
+@media screen and (max-width: 992px) {
+  .driver-item {
+    min-width: 0;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .container .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .driver-new {
+    border-radius: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+}
+
+/* 
+------------------------------------------
+SMALL MEDIA QUERIES
+------------------------------------------
+*/
+@media screen and (max-width: 600px) {
+  .driver-item-label {
+    font-size: 14px;
+  }
+
+  .driver-item-label-b {
+    font-size: 21px;
+  }
+
+  .driver-item-label-t {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+}
+
+/* 
+------------------------------------------
+COMPONENTS CSS
+------------------------------------------
+*/
+
+.driver-wrapper {
+  box-shadow: 0px 5px 71px -11px rgba(0, 0, 0, 0.48);
+}
+
+.driver-rides {
+  background: linear-gradient(to bottom, #64bda4 0%, #bdddc1 100%);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  height: 100%;
+  padding-bottom: 10px;
+  margin-bottom: 40px;
+}
+
+.match-rides {
+  background: linear-gradient(to bottom, #64bda4 0%, #bdddc1 100%);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  height: 100%;
+  margin-top:-30px;
+  padding-bottom: 10px;
+  margin-bottom: 40px;
+}
+
+.driver-label {
+  text-shadow: 3px 4px 20px rgba(0, 0, 0, 0.2);
+  font-size: 1.5rem;
+  font-family: "Brandon Grotesque Black";
+  margin-top: 15px;
+  margin-bottom: 45px;
+  text-align: center;
+}
+
+.driver-item {
+  border-radius: 20px;
+  box-shadow: 12px 10px 71px -11px rgba(0, 0, 0, 0.48);
+  margin: auto;
+  background-color: #3d3d3c;
+  max-width: 600px;
+  width: 88%;
+  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  margin-bottom: 20px;
+}
+
+.driver-item-icon {
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+.driver-item-label {
+  margin-bottom: 10px;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+.driver-item-label-icon {
+  margin-left: 20px;
+  margin-right:20px;
+}
+
+.driver-item-label-b {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-family: "Brandon Grotesque Bold";
+}
+
+.driver-item-label-t {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+.driver-item-button {
+  align-content: center;
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.driver-item-button:hover {
+  background-color: #ff9393;
+}
+
+.driver-item-button:focus {
+  background-color: #ff9393;
+}
+
+.driver-new {
+  box-shadow: 1px 3px 116px -13px rgba(0, 0, 0, 0.5);
+  padding-bottom: 50px;
+  margin-top: -160px;
+  background: white;
+  padding-top: 120px;
+}
+
+.no-rides {
+  height: 120px;
+  color:white;
+  font-family: "Brandon Grotesque";
+  border-radius: 20px;
+  box-shadow: 12px 10px 71px -11px rgba(0, 0, 0, 0.48);
+  margin: auto;
+  background-color: #3d3d3c;
+  max-width: 600px;
+  width: 88%;
+  padding: 20px;
+  padding-top:50px;
+  margin-bottom: 20px;
+}
+
+.driver-icon:hover {
+  border-radius: 5px;
+  background-color: rgba(0,0,0,.11);
+  box-shadow: 0 0 0px 13px rgba(0,0,0,.11);
+}
+
+.passenger-icon:hover  {
+  border-radius: 5px;
+  background-color: rgba(0,0,0,.11);
+  box-shadow: 0 0 0px 13px rgba(0,0,0,.11);
+}

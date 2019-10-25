@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  /* Disables pull-to-refresh but allows overscroll glow effects. */
+  overscroll-behavior-y: contain;
+}
+
+html {
+  background: #3d3d3c;
+  height: 100%;
+}
+
+.App {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+
+.drag-target {
+  width: 25px;
+}
+
+
+button {
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: default;
+}
+
+a {
+  color:white;
+}
+
+@font-face {
+  font-family: "Brandon Grotesque Thin";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Brandon Grotesque Thin"),
+    url("./styles/fonts/brandon-grotesque-thin.woff") format("woff");
+}
+@font-face {
+  font-family: "Brandon Grotesque Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Brandon Grotesque Medium"),
+    url("./styles/fonts/brandon-grotesque-medium.woff") format("woff");
+}
+@font-face {
+  font-family: "Brandon Grotesque Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Brandon Grotesque Bold"),
+    url("./styles/fonts/brandon-grotesque-bold.woff") format("woff");
+}
+@font-face {
+  font-family: "Brandon Grotesque Black";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Brandon Grotesque Black"),
+    url("./styles/fonts/brandon-grotesque-black.woff") format("woff");
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Montserrat Regular"), local("Montserrat-Regular"),
+    url("./styles/fonts/montserrat-v12-latin-regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Montserrat Bold"), local("Montserrat-Bold"),
+    url("./styles/fonts/montserrat-v12-latin-700.woff") format("woff");
+}

@@ -1,0 +1,146 @@
+/* 
+------------------------------------------
+LARGE MEDIA QUERIES
+------------------------------------------
+*/
+@media screen and (min-width: 992px) {
+  .brand-logo {
+    margin-left: 30px;
+  }
+
+  .brand-img {
+    width: 16rem;
+  }
+
+  .driver-item {
+    min-width: 450px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .driver-icon,
+  .passenger-icon {
+    margin-left: -20px;
+  }
+}
+
+/* 
+------------------------------------------
+MEDIUM AND SMALL MEDIA QUERIES
+------------------------------------------
+*/
+@media screen and (max-width: 992px) {
+  .menu {
+    padding-bottom: 0px;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .driver-icon {
+    margin-left: -10px;
+  }
+
+  .passenger-icon {
+    margin-left: -5px;
+  }
+
+  .brand-logo {
+    margin-left: 6%;
+  }
+
+  .brand-img {
+    width: 15rem;
+  }
+
+
+  .container .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+}
+
+/* 
+------------------------------------------
+SMALL MEDIA QUERIES
+------------------------------------------
+*/
+@media screen and (max-width: 600px) {
+  .destination-label {
+    font-size: 14px;
+  }
+
+  .brand-logo {
+    margin-left: 10%;
+    margin-top: 5px;
+  }
+
+  .brand-img {
+    width: 13rem;
+  }
+
+  .nav {
+    margin-left: -10px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .brand-logo {
+    margin-left: 8%;
+    margin-top: 5px;
+  }
+
+  .brand-img {
+    width: 12rem;
+  }
+
+  .nav {
+    margin-left: -10px;
+  }
+}
+
+/* 
+------------------------------------------
+COMPONENTS CSS
+------------------------------------------
+*/
+
+.passenger-icon {
+  cursor: pointer;
+  position: absolute;
+  margin-top: 20px;
+}
+
+.driver-icon {
+  cursor: pointer;
+  position: absolute;
+  margin-top: 25px;
+}
+
+.menu {
+  background-color: #64bda4;
+  padding-bottom: 40px;
+}
+
+.nav {
+  padding-top: 5px;
+  background-color: transparent;
+  box-shadow: unset;
+}
+
+nav .button-collapse {
+  position: absolute;
+  margin-right: 5%;
+  margin-top: 5px;
+}
+
+nav ul a {
+  border-radius: 15px;
+
+}
+
+img {
+  max-width: 500%;
+}
